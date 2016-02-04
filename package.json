@@ -1,0 +1,11 @@
+{
+  "name": "sunnyPHPado",
+  "description": "Simple and easy way to work with PHP and databases, we love the speed of the pure PHP.",
+  "version": "0.1.0",
+  "keywords": [
+    "php",
+    "ado"
+  ],
+  "homepage": "http://ado.sunnyface.com",
+  "author": "Sunnyface.com"
+}
