@@ -22,6 +22,7 @@ require_once("base/net.php");
 require_once("base/formating.php");
 require_once("base/parse.php");
 require_once("base/debug.php");
+require_once("base/tools.php");
 
 /* UI HELPER CLASSES */
 require_once("ui/ui.php");
@@ -30,23 +31,16 @@ define ("SiteSlogan","The Sunnyface.com PHP-ADO Framework");
 $addJS = '';
 
 
-function createRandomPassword() { 
-    $chars = "ASBCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz023456789"; 
-    srand((double)microtime()*1000000); 
-    $i = 0; 
-    $pass = '' ; 
-    while ($i <= 7) { 
-        $num = rand() % 33; 
-        $tmp = substr($chars, $num, 1); 
-        $pass = $pass . $tmp; 
-        $i++; 
-    } 
-    return $pass; 
-}  
-
-
-
-
-
-
-
+function createRandomPassword() {
+    $chars = "ASBCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz023456789";
+    srand((double)microtime()*1000000);
+    $i = 0;
+    $pass = '' ;
+    while ($i <= 7) {
+        $num = rand() % 33;
+        $tmp = substr($chars, $num, 1);
+        $pass = $pass . $tmp;
+        $i++;
+    }
+    return $pass;
+}
