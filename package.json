@@ -7,5 +7,10 @@
     "ado"
   ],
   "homepage": "http://ado.sunnyface.com",
-  "author": "Sunnyface.com"
+  "author": "Sunnyface.com",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-wiredep": "^3.0.1"
+  }
 }

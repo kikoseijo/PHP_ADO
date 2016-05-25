@@ -9,8 +9,9 @@
   "homepage": "http://ado.sunnyface.com",
   "author": "Sunnyface.com",
   "dependencies": {
-    "bootstrap": "~4.0.0",
+    "bootstrap": "^3.3.6",
     "jquery.gritter": "~1.7.4",
-    "toastr": "^2.1.2"
+    "toastr": "^2.1.2",
+    "grunt": "^1.0.1"
   }
 }
