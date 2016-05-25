@@ -3,7 +3,7 @@
 
   <head>
   <meta charset="UTF-8">
-  <title><?php echo $title?></title>  
+  <title><?php echo $title?></title>
   <!-- bower:css -->
   <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css" />
   <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap-theme.css" />
