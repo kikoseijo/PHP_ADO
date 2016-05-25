@@ -21,14 +21,14 @@ of we can block a script with the need of being authentificated user by Session
 ```php
 $s = new Session();
 ```
-if you want to see what session has just do a 
+if you want to see what session has just do a
 ```php
 printR($s);
 ```
 ## The "A.class.php"
 
 "Access" its the class thats pulls all the /lib/models/ classes in the directory and creates an object of each class in the way of an object class.
-
+TODO:
 
 
 ## Configuration Steps
