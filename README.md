@@ -28,8 +28,33 @@ printR($s);
 ## The "A.class.php"
 
 "Access" its the class thats pulls all the /lib/models/ classes in the directory and creates an object of each class in the way of an object class.
-TODO:
+Performs DB queries on the models, but can also perform wide used functions.
 
+Backups to a given directory `$dir` the Full database or it can `$exclude` tables.
+```php
+$a->backup_tables($dir, $exclude = [])
+```
+
+```php
+$a->getValue($id, $table, $value=(String|Array), $separator = ' ');
+$a->getMultiple($post_name, $union = ','); // $_POST : Array => String (coma separated)
+```
+
+Function to iterate $input_string  (ej.: 1,34,67,88) and will return $nombre from $table
+
+```php
+$a->getSubValues($input_string, $nombre, $table, $delimitador, $union, $link_url = '')
+```
+
+This functions will return an Input Select
+
+```php
+$a->getCombo($input_name, $model_table, $pre_defined_value = '', $where = '', $order = '', $item_value = 'id', $css = '', $item_display = '');
+
+$a->getComboAny(&$tabindex, $input_name, $model, $value = '', $where = '', $order = '', $key = 'id', $css = '', $display = '', $empty = '', $alternate_sql = '');
+
+$a->getComboArrays(&$tabindex, $input_name, $value, $values=[], $css = 'class="form-control"', $empty_value = '');
+```
 
 ## Configuration Steps
 
