@@ -1,3 +1,10 @@
+
+```
+This is deadth, Move to Laravel ;-)
+```
+
+
+
 # [Sunny PHP-ADO](http://ado.sunnyface.com/)
 
 [PHP-Ado framework](http://ado.sunnyface.com/) is a very simple PHP framework made for fast PHP proccessing and development, ADO + Basic Helper Classes to get you going on a development fast.
